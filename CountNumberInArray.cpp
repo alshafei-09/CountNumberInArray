@@ -94,7 +94,7 @@ int main()
 	Number = iReadNumber("\nEnter a number to count in matrix: ");
 	vNumberZone(Number, 0, 9);
 	NumberCounter = iCountNumberInMatrix(Arr, Rows, Cols, Number);
-	cout << "\nNumber " << Number << " Count in matrix is " << NumberCounter << endl;
+	cout << "\nNumber " << Number << " Count in matrix is " << NumberCounter << "\n\n";
 
 	return 0;
 }
